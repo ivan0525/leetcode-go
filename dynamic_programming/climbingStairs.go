@@ -1,6 +1,7 @@
 package dynamic_programming
 
 // LeetCode第70题：https://leetcode-cn.com/problems/climbing-stairs/
+
 func ClimbStairs(n int) int {
 	tempMap := make(map[int]int)
 	tempMap[1] = 1
@@ -10,4 +11,5 @@ func ClimbStairs(n int) int {
 	}
 	return tempMap[n]
 }
+
 

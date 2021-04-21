@@ -6,6 +6,6 @@ import (
 )
 
 func main() {
-	res:=dynamic_programming.ClimbStairs(8)
+	res := dynamic_programming.ClimbStairs(8)
 	fmt.Println("stairs: ", res)
 }
