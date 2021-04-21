@@ -1,4 +1,7 @@
-func climbStairs(n int) int {
+package dynamic_programming
+
+// LeetCode第70题：https://leetcode-cn.com/problems/climbing-stairs/
+func ClimbStairs(n int) int {
 	tempMap := make(map[int]int)
 	tempMap[1] = 1
 	tempMap[2] = 2
